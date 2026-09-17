@@ -1,6 +1,6 @@
 #Cria um programa com menu que gerencie um inventário de ativos no MongoDB.
 from pymongo import MongoClient
-from pymongo.errors import DuplicateKeyError
+from pymongo.errors import DuplicateKeyError 
  
 # Conexão com o MongoDB
 client = MongoClient("mongodb://localhost:27017/")
